@@ -34,7 +34,7 @@ This Python script serves as a data analysis tool for temperature records. It in
    - It calculates and visualizes the average annual temperatures for specified cities over the years.
 
 3. **Trend Analysis:**
-   - The script identifies intervals with extreme positive or negative slopes, showcasing trends in the temperature data.
+   - The script identifies intervals with extreme positive or negative slopes, showcasing trends in the temperature data. Functions exist to calculate the mse and rmse
 
 4. **Prediction:**
    - Using polynomial regression models, the script predicts future temperature trends based on training data.
