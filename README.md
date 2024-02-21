@@ -24,3 +24,28 @@ This Python script serves as a data analysis tool for temperature records. It in
    git clone https://github.com/your-username/temperature-analysis.git
    cd temperature-analysis
    python temperature_analysis.py
+
+## Functionalities
+
+1. **Daily Temperature Analysis:**
+   - The script provides polynomial regression models for daily temperature data, with the option to visualize the results.
+
+2. **Annual Temperature Analysis:**
+   - It calculates and visualizes the average annual temperatures for specified cities over the years.
+
+3. **Trend Analysis:**
+   - The script identifies intervals with extreme positive or negative slopes, showcasing trends in the temperature data.
+
+4. **Prediction:**
+   - Using polynomial regression models, the script predicts future temperature trends based on training data.
+
+## Test Cases
+
+- Test cases are available in `test_ps5_student.py`, which is written by the MIT 6.100B course staff. These tests ensure the correctness and functionality of the implemented code.
+
+
+## Acknowledgments
+
+- This script was developed as part of the 6.100B MIT course.
+- The temperature data is sourced from the `data.csv` file.
+
